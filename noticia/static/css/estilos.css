@@ -1,0 +1,158 @@
+body{
+    background-color: #ffffff;
+}
+
+h1{
+    color: #000000;
+	font-family:'Times New Roman', Times, serif;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+
+.cn{
+	color: #ffffff;
+	font-family:'Times New Roman', Times, serif;
+	font-size: 30px;
+}
+h3{
+	font-family:'Times New Roman', Times, serif;
+	font-size: 40px;
+}
+a {
+    color: var(--text-color);
+	font-family:'Times New Roman', Times, serif;
+  }
+  
+p {
+    margin-bottom: 0.75rem;
+    line-height: 1.2rem;
+	font-family:'Times New Roman', Times, serif;
+  }
+
+/*footer*/
+.footer{
+	background-color:  #060d64;
+    padding: 7px 0;	
+}
+.footer-col{
+   width: 23%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	font-family:'Times New Roman', Times, serif;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	font-family:'Times New Roman', Times, serif;
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #ffffff;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #ffffff;
+	background-color: #060d64;
+}
+
+.footer-col h4{
+	margin-left: 40px;
+}
+
+.social-links {
+	margin-left: 40px;
+}
+
+.centrado h1{
+	color: #ffffff;
+    position: absolute;
+	font-family: monospace;
+	font-size: 80px;
+    top: 50%;
+    left: 45%;
+    transform: translate(-30%, -30%);
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+	width: 100%;
+}
+
+/*Ã±e de formulario*/
+.controls {
+	width: 100%;
+	border: 1px solid #017bab;
+	margin-bottom: 15px;
+	padding: 11px 10px;
+	background: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+  }
+
+/*modo oscuro*/
+.switch{
+	background: #343D5B;
+	border-radius: 1000px;
+	border: none;
+	position: relative;
+	cursor: pointer;
+	display: flex;
+	outline:none;	
+
+}
+
+.dark{
+	background-color:black ;
+	color:white;
+	
+}	
+
+.cardd{
+	background-color: #000000;
+}
+
